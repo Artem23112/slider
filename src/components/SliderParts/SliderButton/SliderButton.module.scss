@@ -1,0 +1,22 @@
+.bth {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba($color: #fff, $alpha: 0);
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+    &:hover {
+        background-color: rgba($color: #fff, $alpha: 0.15);
+    }
+
+    &.left {
+
+        left: 0px;
+    }
+
+    &.right {
+
+        right: 0px;
+    }
+}
